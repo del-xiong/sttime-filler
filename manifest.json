@@ -5,11 +5,11 @@
   "description": "ST STTime filler",
   "author": "Del Xiong",
   "icons": { "16" : "images/icon.png",
- 			"48" : "images/48.png",
-			"128" : "images/128.png"},
-  "homepage_url": "https://www.symphonyteleca.com",
+      "48" : "images/48.png",
+      "128" : "images/128.png"},
+  "homepage_url": "https://github.com/del-xiong/sttime-filler",
     "permissions": [
- 		"tabs"
+    "tabs"
     ],
   "content_scripts": [
     {
@@ -17,7 +17,7 @@
       "js": ["scripts/config.js","scripts/jq.js","scripts/stcard.js"]
     }
   ],
-	"browser_action": {
+  "browser_action": {
     "default_icon": "images/icon.png", 
     "default_title": "ST stTime filler"
   }
